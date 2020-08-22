@@ -1,0 +1,354 @@
+*
+{
+  box-sizing: border-box; /*изменяет ширину не трогая оступы */
+}
+
+
+body
+{
+  
+  margin: 0;
+  background-color: #20202d;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container
+{
+
+max-width: 945px;
+margin: auto;
+
+}
+.section
+{
+  padding-top: 64px;
+  padding-bottom: 92px;
+}
+
+.section-logo
+{
+  font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+  margin: 0;
+  margin-bottom: 84px;
+}
+
+.logo
+{
+ width:85px;
+}
+.shapka
+{
+  background: linear-gradient(0.01deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+  padding-bottom: 150px;
+ 
+  
+  padding-top: 10px;
+}
+
+
+
+.shapka-header
+{
+  align-items: center;  /* расположение по центру относительно верттикальной линии */
+  display: flex; /* расположение элементов вдоль горизонтальной оси */
+  justify-content: space-between; /* расположение элементов на одинаково возможном расстоянии */
+  margin-bottom: 100px;
+}
+
+.link
+{
+  margin-left: 15px;
+}
+
+.link:first-child{ /* обращение к первому элементу */
+margin-left: 0;
+
+}
+.shapka-content
+{
+  
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shapka-textglav
+{
+  display: inline-block; /* обтекается остальными элементами на странице , значение определяется margin */
+  margin-bottom: 14px;
+  color: #FFBB01;
+  font-size: 24px; /*размер шрфита*/
+line-height: 28px; /* высота строки */
+}
+
+.shapka-sag
+{
+  font-weight: bold;
+font-size: 35px;
+line-height: 59px;
+margin-top: 0PX;
+margin-bottom: 20PX;
+}
+
+.shapka-infa
+{
+  margin-bottom: 38px;
+  max-width: 420px;
+  font-size: 16px;
+line-height: 28px;
+}
+
+.shapka-button{
+  padding: 24px 42px;
+  background: linear-gradient(180deg, #FDDE76 0%, #FFBB01 100%);
+box-shadow: 0px 4px 0px #B68500;
+border-radius: 5px 5px 10px 10px;
+border: none;
+font-size: 12px;
+line-height: 14px;
+align-items: center;
+text-align: center;
+text-transform: uppercase; /* делает текст заглавными буквами */
+
+}
+
+.shapka-avatar
+{
+ background-image: url("../img/avatar.jpg");
+  border-radius: 50%;
+  width:350px;
+  height: 350px;
+ background-repeat: no-repeat;
+ background-position: center top -10px;
+ border: 13px solid white;
+}
+
+
+
+
+/* стили дли блока инфы */
+.main-infa
+{
+background-color:black;
+}
+
+.infa-block
+{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap; /* задает правило выводы флекс элементов */
+  
+}
+
+.infa-block-item
+{
+ margin-bottom: 63px;
+ flex-basis: 30%;
+}
+
+.infa-block-image
+{
+  display: block;
+  margin-bottom: 22px;
+}
+
+.infa-block-title
+{
+  margin-bottom: 16px;
+  margin: 0;
+  font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+}
+
+
+/* контакты */
+
+
+.contacts-form
+{
+  background: #FFFFFF;
+box-shadow: -5px 5px 0px #FFC41D;
+border-radius: 5px;
+max-width: 383px;
+padding-top: 40px;
+padding-bottom: 49px;
+padding-left: 48px;
+padding-right: 48px;
+}
+
+.form-title
+{
+  font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #000000;
+margin: 0;
+margin-bottom: 25px;
+}
+
+.wod
+{
+  border: none;
+  background: #F8F8F8;
+box-shadow: inset 0px 3px 10px rgba(199, 199, 199, 0.25);
+border-radius: 5px;
+padding: 18px 20px;
+width: 100%;
+font-size: 14px;
+line-height:28px;
+padding-left: 50px;
+}
+
+.wod-im
+{
+  background-image: url("../img/user-icon.svg");
+  margin-bottom: 17px;
+  background-repeat: no-repeat;
+  background-position:center left 20px;
+}
+
+.wod-phone
+{
+  background-image: url("../img/phone-icon.svg");
+  margin-bottom: 17px;
+  background-repeat: no-repeat;
+  background-position:center left 20px;
+}
+
+.form-button{
+  width: 100%;
+}
+
+
+.contacts-block
+{
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+.contacts-widno
+{
+  margin-bottom: 42px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contacts-phone, .contacts-mail
+{
+  flex-basis: 50%;
+  margin-bottom: 53px;
+}
+
+.contacts-social
+{
+  flex-basis: 100%;
+}
+
+.contacts-title
+{
+  font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+  margin-bottom: 15px;
+}
+
+.contacts-link
+{
+  margin-right: 37px;
+  text-decoration: none;
+  color: inherit; /* под цвет основного текста */
+  
+}
+
+.contacts-link:hover
+{
+  text-decoration: underline; /*подчеркивает при наведении */
+}
+
+
+.contacts-text
+{
+  flex-basis: 50%;
+}
+
+.sakon
+{
+  margin-top: 65px;
+  font-size: 15px;
+line-height: 18px;
+text-decoration-line: underline;
+color: #A5A5A5;
+}
+
+
+ /*слайдер */
+
+
+
+
+.projects
+{
+  background: linear-gradient(180deg, #000000 0.01%, rgba(0, 0, 0, 0) 95.44%);
+}
+
+.slide
+{
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;  /*Край поперечного начала края гибкого элемента выровнен с краем поперечного начала линии. */
+}
+
+.slide-text
+{
+flex-basis: 60%;
+display: flex;
+flex-wrap: wrap;
+
+}
+
+.text-sag
+{
+  Font-Style: Bold;
+font-size: 24px;
+Line-Height: 28px;
+Line-Height: 100%;
+  flex-basis: 100%;
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.text-time, .text-cost
+{
+  flex-basis: 50%;
+  margin-bottom: 90px;
+}
+
+.text-time, .text-cost, .text-feedback
+{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+.time-text-sagh4
+{
+  margin: 0;
+  margin-bottom: 7px;
+}
+
+.time-text-p
+{
+  margin: 0;
+}
+
+.time-text-img
+{
+  margin-right: 17px;
+}
